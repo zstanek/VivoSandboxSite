@@ -1,6 +1,6 @@
 object Vivo\CMS\Model\Document {
 	layoutPanels array (
-    	string "leftPanel" : string "components/left-reference"
+    	string "leftPanel" : string "Components/left-reference"
 	)
 	url string ""
 	heading string ""

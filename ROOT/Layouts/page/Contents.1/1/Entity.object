@@ -1,8 +1,8 @@
 object Vivo\CMS\Model\Content\Layout {
 	panels array (
-    string "menu" : string "components/menu"
-    string "footer" : string "components/footer"
-    string "leftPanel" : string "components/leftPanel"
+    string "menu" : string "Components/menu"
+    string "footer" : string "Components/footer"
+    string "leftPanel" : string "Components/leftPanel"
 	)
 	state string "PUBLISHED"
 	recursive boolean false

@@ -1,6 +1,6 @@
 object Vivo\CMS\Model\Document {
 	layoutPanels array (
-    	string "menu" : string "components/menu"
+    	string "menu" : string "Components/menu"
 	)
 	url string ""
 	heading string ""
