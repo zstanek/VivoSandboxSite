@@ -1,0 +1,5 @@
+object Vivo\CMS\Model\Content\File {
+	filename string "pricelist.zip"
+	mimeType string "application/zip"
+  state string "PUBLISHED"
+}

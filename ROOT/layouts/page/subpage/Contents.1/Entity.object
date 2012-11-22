@@ -1,0 +1,4 @@
+object Vivo\CMS\Model\ContentContainer {
+	containerName string "panel"
+	order integer 1
+}

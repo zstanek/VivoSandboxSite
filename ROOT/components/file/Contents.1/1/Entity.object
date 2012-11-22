@@ -1,0 +1,5 @@
+object Vivo\CMS\Model\Content\File {
+	fileName string "resource.html"
+	mimeType string "image/png"
+  state string "PUBLISHED"
+}

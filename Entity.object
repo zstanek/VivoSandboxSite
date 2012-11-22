@@ -1,0 +1,7 @@
+object Vivo\CMS\Model\Site {
+	title string ""
+	domain string "LUNDEGAARDNET"
+	hosts array (
+		integer 0 : string "sandbox.v2"
+	)
+}

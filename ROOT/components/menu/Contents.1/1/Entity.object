@@ -1,0 +1,5 @@
+object Vivo\CMS\Model\Content\Overview {
+  overviewType string "DYNAMIC"
+  overviewPath string "cs"
+  state string "PUBLISHED"
+}

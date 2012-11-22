@@ -1,0 +1,9 @@
+object Vivo\CMS\Model\Content\Overview {
+  state string "PUBLISHED"
+  overviewType string "STATIC"
+  overviewItems array (
+    integer 0 : string "cs/about-us"
+    integer 1 : string "cs/contact"
+    integer 2 : string "files/pricelist"
+  )
+}

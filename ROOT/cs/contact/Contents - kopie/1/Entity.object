@@ -1,0 +1,22 @@
+object Vivo\CMS\Model\Content\File {
+	mimeType string "text/html"
+	filename string ""
+	state string "PUBLISHED"
+	stateChange array (
+	)
+	recursive boolean false
+	uuid string "250CB2947C15CCDD63FF1C92ECEF5B28"
+	searchable boolean true
+	created object DateTime {
+		date string "2010-10-05 16:07:14"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy string "LUNDEGAARDNET\jtonar"
+	modified object DateTime {
+		date string "2012-02-13 08:54:15"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy string "LUNDEGAARDNET\pducho"
+}
