@@ -4,6 +4,6 @@ object Vivo\CMS\Model\Content\Overview {
   overviewItems array (
     integer 0 : string "cs/about-us"
     integer 1 : string "cs/contact"
-    integer 2 : string "files/pricelist"
+    integer 2 : string "Files/pricelist"
   )
 }
