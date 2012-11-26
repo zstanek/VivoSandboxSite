@@ -1,4 +1,5 @@
-object Vivo\CMS\Model\Content\Overview {
-  overviewType string "DYNAMIC"
+object Vivo\CMS\Model\Content\File {
+  mimeType string "text/html"
+  filename string "resource.html"
   state string "PUBLISHED"
 }
