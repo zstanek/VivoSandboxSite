@@ -1,5 +1,5 @@
 object Vivo\CMS\Model\Content\File {
-  uuid string "021AB1234501234567890123456789AB"
+  uuid string "921AB1234501234567890123456789AB"
   mimeType string "text/html"
   state string "PUBLISHED"
   
