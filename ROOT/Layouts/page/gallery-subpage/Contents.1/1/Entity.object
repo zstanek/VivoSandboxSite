@@ -1,3 +1,4 @@
 object Vivo\CMS\Model\Content\Layout {
+  uuid string "003AB1234501234567890123456789AB"
   state string "PUBLISHED"
 }

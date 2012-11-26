@@ -1,4 +1,5 @@
 object Vivo\CMS\Model\Content\Overview {
+  uuid string "012345678901234567890000000000AA"
   overviewType string "DYNAMIC"
   state string "PUBLISHED"
 }
