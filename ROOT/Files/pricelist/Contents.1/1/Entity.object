@@ -1,4 +1,5 @@
 object Vivo\CMS\Model\Content\File {
+    uuid string "006AB1234501234567890123456789AB"
 	filename string "pricelist.zip"
 	mimeType string "application/zip"
   state string "PUBLISHED"

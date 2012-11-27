@@ -1,5 +1,5 @@
-object Vivo\CMS\Model\Content\File {
-  mimeType string "text/html"
-  filename string "resource.html"
+object Vivo\CMS\Model\Content\Overview {
+  uuid string "915AB1234501234567890123456789AB"
+  overviewType string "DYNAMIC"
   state string "PUBLISHED"
 }
