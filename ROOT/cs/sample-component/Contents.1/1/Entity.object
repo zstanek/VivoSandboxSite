@@ -1,0 +1,4 @@
+object VivoSandboxModule\CMS\Model\Content\Sample {
+  uuid string "014AB1234501234567890123456789AB"
+  state string "PUBLISHED"
+}
