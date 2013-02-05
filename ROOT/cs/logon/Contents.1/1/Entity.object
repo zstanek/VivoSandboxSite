@@ -1,0 +1,23 @@
+object Vivo\CMS\Model\Content\Logon {
+	uuid string "DC57F8E187C79931C4150F5927B0F706"
+	searchable NULL
+	created object DateTime {
+		date string "2013-01-23 17:19:35"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy NULL
+	modified object DateTime {
+		date string "2013-01-23 17:29:11"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy NULL
+	template NULL
+	state string "PUBLISHED"
+	stateChange NULL
+	recursive NULL
+	logonUrl NULL
+	logoffUrl NULL
+	errorUrl NULL
+}

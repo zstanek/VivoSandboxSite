@@ -1,0 +1,22 @@
+object Vivo\CMS\Model\Content\Component {
+	uuid string "FC22389E58545FE07F98C3345641F981"
+	searchable NULL
+	created object DateTime {
+		date string "2013-01-23 16:56:05"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy NULL
+	modified object DateTime {
+		date string "2013-01-23 17:29:11"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy NULL
+	template NULL
+	state string "PUBLISHED"
+	stateChange NULL
+	recursive NULL
+	DEFAULT_FRONT_COMPONENT string "Vivo\CMS\UI\Blank"
+	frontComponent string "VivoSampleModule\CMS\UI\Content\Customer"
+}

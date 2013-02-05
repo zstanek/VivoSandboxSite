@@ -1,4 +1,22 @@
 object Vivo\CMS\Model\Content\Layout {
-  uuid string "0123456789012345687890000000001AA"
-  state string "PUBLISHED"
+	uuid string "BC1853E05BF29BE1EAA2BD5607D6C461"
+	searchable NULL
+	created object DateTime {
+		date string "2013-01-23 16:56:05"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy NULL
+	modified object DateTime {
+		date string "2013-01-23 17:29:11"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy NULL
+	template NULL
+	state string "PUBLISHED"
+	stateChange NULL
+	recursive NULL
+	panels array (
+	)
 }

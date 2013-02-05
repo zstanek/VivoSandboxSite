@@ -1,5 +1,27 @@
 object Vivo\CMS\Model\Content\Overview {
-  uuid string "012345678901234567890000000000AA"
-  overviewType string "DYNAMIC"
-  state string "PUBLISHED"
+	uuid string "7229B57D31B56B3E3D9A0DA6FBADD0DF"
+	searchable NULL
+	created object DateTime {
+		date string "2013-01-23 16:56:05"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy NULL
+	modified object DateTime {
+		date string "2013-01-23 17:29:11"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy NULL
+	template string "Vivo\CMS\UI\Content\Overview:Description"
+	state string "PUBLISHED"
+	stateChange NULL
+	recursive NULL
+	overviewType string "DYNAMIC"
+	overviewPath NULL
+	overviewCriteria string "\publishedContents:\"Vivo\CMS\Model\Content\File\""
+	overviewSorting NULL
+	overviewLimit integer 10
+	overviewItems array (
+	)
 }

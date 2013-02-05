@@ -1,0 +1,49 @@
+object Vivo\CMS\Model\Document {
+	uuid string "E382FAEB74264537062F7CB78932D1F9"
+	searchable boolean true
+	created object DateTime {
+		date string "2010-10-05 16:07:14"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy string "LUNDEGAARDNET\jtonar"
+	modified object DateTime {
+		date string "2013-01-23 17:29:11"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy string "LUNDEGAARDNET\pducho"
+	title string "Link"
+	language string "en"
+	description string ""
+	allowListing boolean false
+	position integer 70
+	sorting string ""
+	replicationGroupId string ""
+	lastPath NULL
+	security NULL
+	url string ""
+	urlPrecedence NULL
+	heading string ""
+	overviewTitle NULL
+	keywords string ""
+	layout string "/Layouts/page/subpage/"
+	layoutPanels array (
+	)
+	navigable boolean true
+	autoVersioning boolean false
+	secured boolean false
+	linkAttributes array (
+	)
+	vocabularies NULL
+	expiration integer 0
+	workflow string "Vivo\CMS\Workflow\Basic"
+	image NULL
+	published object DateTime {
+		date string "2010-10-05 16:05:16"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	author string "jtonar"
+	internalNotice string ""
+}

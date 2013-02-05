@@ -1,7 +1,6 @@
 object Vivo\CMS\Model\Folder {
-	language string "cs"
-	description NULL
-	uuid string "abcdefghjklmnopqrstuvwhjhjhxyzlayouts"
+	uuid string "C425585382DE1CB29E7F8E0934C032E4"
+	searchable NULL
 	created object DateTime {
 		date string "2009-11-09 11:27:17"
 		timezone_type integer 3
@@ -9,9 +8,18 @@ object Vivo\CMS\Model\Folder {
 	}
 	createdBy string "\anonymous"
 	modified object DateTime {
-		date string "2009-11-09 11:27:17"
+		date string "2013-01-23 17:29:11"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
 	modifiedBy string "\anonymous"
+	title NULL
+	language string "cs"
+	description NULL
+	allowListing NULL
+	position NULL
+	sorting NULL
+	replicationGroupId NULL
+	lastPath NULL
+	security NULL
 }

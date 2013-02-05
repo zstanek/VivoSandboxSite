@@ -1,7 +1,29 @@
 object Vivo\CMS\Model\Site {
+	uuid string "657D25B2C0C049304AA7D5FFC15F9E72"
+	searchable NULL
+	created object DateTime {
+		date string "2013-01-23 16:56:05"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy NULL
+	modified object DateTime {
+		date string "2013-01-23 17:29:11"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy NULL
 	title string ""
+	language NULL
+	description NULL
+	allowListing NULL
+	position NULL
+	sorting NULL
+	replicationGroupId NULL
+	lastPath NULL
+	security NULL
 	domain string "LUNDEGAARDNET"
-	uuid string "012345678901234567890123456789AB"
+	parentSite NULL
 	hosts array (
 		integer 0 : string "sandbox.v2"
 	)

@@ -1,11 +1,5 @@
 object Vivo\CMS\Model\Content\File {
-	mimeType string "text/html"
-	filename string ""
-	state string "PUBLISHED"
-	stateChange array (
-	)
-	recursive boolean false
-	uuid string "250CB2947C15CCDD63FF1C92ECEF5B28"
+	uuid string "8564607E9C8C9246125FE95BFC28D7F8"
 	searchable boolean true
 	created object DateTime {
 		date string "2010-10-05 16:07:14"
@@ -14,9 +8,16 @@ object Vivo\CMS\Model\Content\File {
 	}
 	createdBy string "LUNDEGAARDNET\jtonar"
 	modified object DateTime {
-		date string "2012-02-13 08:54:15"
+		date string "2013-01-23 17:29:11"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
 	modifiedBy string "LUNDEGAARDNET\pducho"
+	template NULL
+	state string "PUBLISHED"
+	stateChange array (
+	)
+	recursive boolean false
+	mimeType string "text/html"
+	filename string ""
 }

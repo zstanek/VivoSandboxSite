@@ -1,5 +1,18 @@
 object Vivo\CMS\Model\ContentContainer {
-    uuid string "013AB1234501234567890123456789AB"
+	uuid string "7CAED5D7443141F58BF30E13FA7063C1"
+	searchable NULL
+	created object DateTime {
+		date string "2013-01-22 11:21:57"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy NULL
+	modified object DateTime {
+		date string "2013-01-23 17:29:11"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy NULL
 	containerName string "panel"
 	order integer 1
 }

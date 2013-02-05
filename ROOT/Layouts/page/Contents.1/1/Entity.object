@@ -1,12 +1,5 @@
 object Vivo\CMS\Model\Content\Layout {
-	panels array (
-    string "menu" : string "Components/menu"
-    string "footer" : string "Components/footer"
-    string "leftPanel" : string "Components/leftPanel"
-	)
-	state string "PUBLISHED"
-	recursive boolean false
-	uuid string "62A95127898BE8D2B91B67EF88A340EF"
+	uuid string "9376BC1529E10FF60C9B3527A990F6C8"
 	searchable boolean true
 	created object DateTime {
 		date string "2012-07-17 14:44:55"
@@ -15,9 +8,19 @@ object Vivo\CMS\Model\Content\Layout {
 	}
 	createdBy string "LUNDEGAARDNET\zstanek"
 	modified object DateTime {
-		date string "2012-07-17 14:44:55"
+		date string "2013-01-23 17:29:11"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
 	modifiedBy string "LUNDEGAARDNET\zstanek"
+	template NULL
+	state string "PUBLISHED"
+	stateChange NULL
+	recursive boolean false
+	panels array (
+		string "menu" : string "Components/menu"
+		string "footer" : string "Components/footer"
+		string "leftPanel" : string "Components/leftPanel"
+    string "undefinedPanel" : string ""
+	)
 }

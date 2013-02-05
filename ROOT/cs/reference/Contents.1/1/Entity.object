@@ -1,6 +1,22 @@
 object Vivo\CMS\Model\Content\File {
-  uuid string "008AB1234501234567890123456789AB"
-  mimeType string "text/html"
-  filename string "resource.html"
-  state string "PUBLISHED"
+	uuid string "B557573776765D178917F3AEEBC72E92"
+	searchable NULL
+	created object DateTime {
+		date string "2013-01-23 16:56:05"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy NULL
+	modified object DateTime {
+		date string "2013-01-23 17:29:11"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy NULL
+	template NULL
+	state string "PUBLISHED"
+	stateChange NULL
+	recursive NULL
+	mimeType string "text/html"
+	filename string "resource.html"
 }

@@ -1,0 +1,22 @@
+object Vivo\CMS\Model\Content\Link {
+	uuid string "16869454C2AF92438A8F8437FBF414F5"
+	searchable boolean true
+	created object DateTime {
+		date string "2010-10-05 16:07:14"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy string "LUNDEGAARDNET\jtonar"
+	modified object DateTime {
+		date string "2013-01-23 17:29:11"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy string "LUNDEGAARDNET\pducho"
+	template NULL
+	state string "PUBLISHED"
+	stateChange array (
+	)
+	recursive NULL
+	relPath string "/cs/contact/"
+}

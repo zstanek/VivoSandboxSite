@@ -1,15 +1,40 @@
 object Vivo\CMS\Model\Document {
+	uuid string "B8114E364BA35DDBF1FEFC092C03F258"
+	searchable boolean true
+	created object DateTime {
+		date string "2010-10-05 16:07:14"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy string "LUNDEGAARDNET\jtonar"
+	modified object DateTime {
+		date string "2013-01-23 17:29:11"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy string "LUNDEGAARDNET\pducho"
+	title string "Contact"
+	language string "en"
+	description string ""
+	allowListing boolean false
+	position integer 70
+	sorting string ""
+	replicationGroupId string ""
+	lastPath NULL
+	security NULL
 	url string ""
+	urlPrecedence NULL
 	heading string ""
+	overviewTitle NULL
 	keywords string ""
 	layout string "Layouts/page/subpage"
 	layoutPanels array (
 	)
-	position integer 70
 	navigable boolean true
 	autoVersioning boolean false
-	sorting string ""
 	secured boolean false
+	linkAttributes array (
+	)
 	vocabularies NULL
 	expiration integer 0
 	workflow string "Vivo\CMS\Workflow\Basic"
@@ -21,23 +46,4 @@ object Vivo\CMS\Model\Document {
 	}
 	author string "jtonar"
 	internalNotice string ""
-	title string "Contact"
-	language string "en"
-	description string ""
-	allowListing boolean false
-	replicationGroupId string ""
-	uuid string "A0CB9B570D2DA5C319D84066D2C1F3F6"
-	searchable boolean true
-	created object DateTime {
-		date string "2010-10-05 16:07:14"
-		timezone_type integer 3
-		timezone string "Europe/Prague"
-	}
-	createdBy string "LUNDEGAARDNET\jtonar"
-	modified object DateTime {
-		date string "2012-02-13 08:54:15"
-		timezone_type integer 3
-		timezone string "Europe/Prague"
-	}
-	modifiedBy string "LUNDEGAARDNET\pducho"
 }
