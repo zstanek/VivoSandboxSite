@@ -1,0 +1,38 @@
+object Vivo\CMS\Model\Document {
+	url string ""
+	heading string ""
+	keywords string ""
+	layout string "/Layouts/page/subpage/"
+	position integer 0
+	navigable boolean true
+	sorting string ""
+	secured boolean false
+	vocabularies NULL
+	expiration integer 0
+	workflow string "Vivo\CMS\Workflow\Basic"
+	image NULL
+	published object DateTime {
+		date string "2011-02-22 13:08:25"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	author string "mhajek"
+	title string "Overview - date & desc"
+	language string "cs"
+	description string ""
+	replicationGroupId string ""
+	uuid string "BC6F6908A481F503C6171C998640A563"
+	searchable boolean true
+	created object DateTime {
+		date string "2011-02-22 13:08:58"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	createdBy string "LUNDEGAARDNET\mhajek"
+	modified object DateTime {
+		date string "2011-03-28 11:14:28"
+		timezone_type integer 3
+		timezone string "Europe/Prague"
+	}
+	modifiedBy string "LUNDEGAARDNET\gcizkova"
+}

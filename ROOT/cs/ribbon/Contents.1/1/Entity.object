@@ -17,6 +17,5 @@ object Vivo\CMS\Model\Content\Component {
 	state string "PUBLISHED"
 	stateChange NULL
 	recursive NULL
-	DEFAULT_FRONT_COMPONENT string "Vivo\CMS\UI\Blank"
 	frontComponent string "Vivo\Exp\Ribbon"
 }

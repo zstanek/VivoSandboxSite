@@ -1,6 +1,6 @@
 object Vivo\CMS\Model\Content\Overview {
-  uuid string "028AB1234501234567890123456789AB"
-  template string "Vivo\CMS\UI\Content\Overview:Inline"
+  uuid string "ADAAB1234501234B67890123456789AD"
+  template string "Vivo\CMS\UI\Content\Overview:Desc"
   state string "PUBLISHED"
   overviewType string "STATIC"
   overviewItems array (

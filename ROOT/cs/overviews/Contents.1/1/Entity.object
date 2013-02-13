@@ -1,0 +1,9 @@
+object Vivo\CMS\Model\Content\Overview {
+  uuid string "658AB1234501234B67890123456789A1"
+  template string "Vivo\CMS\UI\Content\Overview"
+  state string "PUBLISHED"
+  overviewType string "DYNAMIC"
+  overviewPath string ""
+  overviewSorting string "\path"
+  overviewLimit integer 20
+}

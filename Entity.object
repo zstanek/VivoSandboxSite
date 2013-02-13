@@ -25,6 +25,6 @@ object Vivo\CMS\Model\Site {
 	domain string "LUNDEGAARDNET"
 	parentSite NULL
 	hosts array (
-		integer 0 : string "sandbox.v2"
+		integer 0 : string "vivosandboxsite.vivo2-dev.zstanek.v2"
 	)
 }

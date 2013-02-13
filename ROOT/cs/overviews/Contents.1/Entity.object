@@ -1,0 +1,5 @@
+object Vivo\CMS\Model\ContentContainer {
+    uuid string "527AB1234501264567890123456789A6"
+	containerName string "panel"
+	order integer 1
+}
