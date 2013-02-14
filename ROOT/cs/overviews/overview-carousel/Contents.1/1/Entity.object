@@ -1,6 +1,6 @@
 object Vivo\CMS\Model\Content\Overview {
-  uuid string "DADAB1A3AA01234BF789AA234567A9AD"
-  template string "Vivo\CMS\UI\Content\Overview:ThumbDesc"
+  uuid string "DA2ADDA3AA01234B6789AA234567A9AD"
+  template string "Vivo\CMS\UI\Content\Overview:Carousel"
   state string "PUBLISHED"
   overviewType string "STATIC"
   overviewItems array (

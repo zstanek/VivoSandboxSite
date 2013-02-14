@@ -2,7 +2,7 @@ object Vivo\CMS\Model\Document {
 	url string ""
 	heading string ""
 	keywords string ""
-	layout string ""
+	layout string "/Layouts/page/subpage/"
 	position integer 0
 	navigable boolean true
 	sorting string ""
@@ -10,18 +10,18 @@ object Vivo\CMS\Model\Document {
 	vocabularies NULL
 	expiration integer 0
 	workflow string "Vivo\CMS\Workflow\Basic"
-	image string "image.jpg"
+	image NULL
 	published object DateTime {
 		date string "2011-02-22 13:08:25"
 		timezone_type integer 3
 		timezone string "Europe/Prague"
 	}
 	author string "mhajek"
-	title string "Price list"
+	title string "Overview - carousel"
 	language string "cs"
-	description string "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+	description string ""
 	replicationGroupId string ""
-	uuid string "1F2F6998A481FB03C6171C998640A56E"
+	uuid string "DAAF6908A481DD03C6171C998640A56D"
 	searchable boolean true
 	created object DateTime {
 		date string "2011-02-22 13:08:58"

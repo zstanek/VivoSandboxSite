@@ -15,7 +15,7 @@ object Vivo\CMS\Model\Document {
 	modifiedBy string "LUNDEGAARDNET\gcizkova"
 	title string "About us"
 	language string "cs"
-	description string ""
+	description string "Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui."
 	allowListing NULL
 	position integer 0
 	sorting string ""
@@ -38,7 +38,7 @@ object Vivo\CMS\Model\Document {
 	vocabularies NULL
 	expiration integer 0
 	workflow string "Vivo\CMS\Workflow\Basic"
-	image NULL
+	image string "image.jpg"
 	published object DateTime {
 		date string "2011-02-22 13:08:25"
 		timezone_type integer 3

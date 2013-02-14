@@ -1,0 +1,6 @@
+object Vivo\CMS\Model\Content\File {
+    uuid string "A06AB1234501234A67890123456789AA"
+	filename string "picture-01.jpg"
+	mimeType string "image/jpeg"
+  state string "PUBLISHED"
+}
