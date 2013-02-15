@@ -17,11 +17,11 @@ object Vivo\CMS\Model\Document {
 		timezone string "Europe/Prague"
 	}
 	author string "mhajek"
-	title string "Overview - carousel (bootstrap)"
+	title string "Overview - carousel (touch)"
 	language string "cs"
 	description string ""
 	replicationGroupId string ""
-	uuid string "DAAF6908A481DD03C6171C998640A56D"
+	uuid string "FFAAF6908A481DD03C6171CFF8640A56F"
 	searchable boolean true
 	created object DateTime {
 		date string "2011-02-22 13:08:58"

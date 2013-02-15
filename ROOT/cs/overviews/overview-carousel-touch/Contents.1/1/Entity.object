@@ -1,0 +1,11 @@
+object Vivo\CMS\Model\Content\Overview {
+  uuid string "FFA2ADDA3AA01234B6789AA234567A9ADF"
+  template string "Vivo\CMS\UI\Content\Overview:CarouselTouch"
+  state string "PUBLISHED"
+  overviewType string "STATIC"
+  overviewItems array (
+    integer 0 : string "cs/about-us"
+    integer 1 : string "cs/contact"
+    integer 2 : string "Files/pricelist"
+  )
+}
