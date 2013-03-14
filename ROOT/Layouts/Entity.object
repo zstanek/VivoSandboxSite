@@ -13,7 +13,7 @@ object Vivo\CMS\Model\Folder {
 		timezone string "Europe/Prague"
 	}
 	modifiedBy string "\anonymous"
-	title NULL
+	title string "Layouts"
 	language string "cs"
 	description NULL
 	allowListing NULL

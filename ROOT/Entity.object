@@ -13,7 +13,7 @@ object Vivo\CMS\Model\Document {
 		timezone string "Europe/Prague"
 	}
 	modifiedBy string "LUNDEGAARDNET\gcizkova"
-	title string "CS"
+	title string "Sandbox"
 	language string "cs"
 	description string ""
 	allowListing NULL

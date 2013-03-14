@@ -18,9 +18,9 @@ object Vivo\CMS\Model\Content\Layout {
 	stateChange NULL
 	recursive boolean false
 	panels array (
-		string "menu" : string "Components/menu"
-		string "footer" : string "Components/footer"
-		string "leftPanel" : string "Components/leftPanel"
+		string "menu" : string "/Components/menu/"
+		string "footer" : string "/Components/footer/"
+		string "leftPanel" : string "/Components/leftPanel/"
     string "undefinedPanel" : string ""
 	)
 }
